@@ -11,6 +11,7 @@ public class Battleship {
         // Player 1 - Get ship coordinates
         System.out.println("PLAYER 1, ENTER YOUR SHIPS’ COORDINATES.");
         board player1 = new board();  // Create new board object
+        player1.showBoard();
 
         // Player 2 - Get ship coordinates
         System.out.println("PLAYER 2, ENTER YOUR SHIPS’ COORDINATES.");
